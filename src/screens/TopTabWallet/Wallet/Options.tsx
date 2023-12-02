@@ -15,15 +15,15 @@ const Options = ({ t }: Props) => {
     const options = [
         {
             title: 'Send',
-            icon: require('@images/wallet/upload.png'),
+            icon: require('@images/wallet/uploadG.png'),
         },
         {
             title: 'Receive',
-            icon: require('@images/wallet/download.png'),
+            icon: require('@images/wallet/downloadG.png'),
         },
         {
             title: 'Swap',
-            icon: require('@images/wallet/swap.png'),
+            icon: require('@images/wallet/swapG.png'),
         },
     ]
 

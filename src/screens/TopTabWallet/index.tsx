@@ -44,7 +44,7 @@ const TopTabWallet = () => {
                         borderWidth={0.5}
                         justifySpaceBetween
                         borderColor={colors.violet2}
-                        backgroundColor={colors.violet}
+                        backgroundColor={colors.tabTopWallet}
                     >
                         {tabs.map((tab) =>
                             <Btn

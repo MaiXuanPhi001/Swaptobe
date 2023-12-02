@@ -8,22 +8,6 @@ import React from 'react'
 const Coins = () => {
     const coins = [
         {
-            price: 10,
-            USDT: 0.5,
-            percent: 33,
-            symbol: 'SWB',
-            title: 'SWB Coin',
-            icon: require('@images/wallet/swb.png'),
-        },
-        {
-            price: 0,
-            percent: 1,
-            USDT: 0.001,
-            symbol: 'STF',
-            title: 'Swap Tobe Coin',
-            icon: require('@images/wallet/swb.png'),
-        },
-        {
             price: 200,
             symbol: 'BTC',
             percent: -8.201,
@@ -40,12 +24,28 @@ const Coins = () => {
             icon: require('@images/wallet/eth.png'),
         },
         {
+            price: 10,
+            USDT: 0.5,
+            percent: 33,
+            symbol: 'BNB',
+            title: 'BNB Coin',
+            icon: require('@images/wallet/bnb.png'),
+        },
+        {
+            price: 0,
+            percent: 1,
+            USDT: 0.001,
+            symbol: 'BCH',
+            title: 'BCH Coin',
+            icon: require('@images/wallet/bch.png'),
+        },
+        {
             price: 0,
             USDT: 0.5,
             percent: 33,
-            symbol: 'SWBS',
-            title: 'SWB Coin',
-            icon: require('@images/wallet/swb.png'),
+            symbol: 'XRP',
+            title: 'XRP Coin',
+            icon: require('@images/wallet/xrp.png'),
         },
     ]
 

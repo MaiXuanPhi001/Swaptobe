@@ -34,9 +34,10 @@ const CoinChoosed = () => {
                 <Btn
                     radius={5}
                     padding={10}
-                    backgroundColor={colors.violet3}
+                    // backgroundColor={colors.violet3}
+                    backgroundColor={'#2d7273'}
                 >
-                    <Txt>
+                    <Txt color={'white'}>
                         {`${t('Change coin')} `}
                     </Txt>
                 </Btn>

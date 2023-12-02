@@ -34,7 +34,7 @@ const ItemBuyCoin = ({ user, t }: Props) => {
                     {`${t('Maximum')}: ${user.max} ${user.symbol}`}
                 </Txt>
                 <Txt marginTop={10} color={colors.gray4}>
-                    {t('Swaptobe Wallet')}
+                    {t('Wallet')}
                 </Txt>
                 <Txt marginTop={5} color={colors.gray4} bold>
                     {t('Completion time')}: {user.time}
